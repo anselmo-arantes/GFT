@@ -16,6 +16,4 @@ Question 2:
 	
 Obs.: The number "922337203685477.58" is the maximum of Money datatype. So, take it as infinity.
 	
-Ps.: Both question solutions end up quite simple. This week's been quite busy for me, so I couldn't get much time to develop a better and more modern solution.
-
 Thanks.
