@@ -70,13 +70,16 @@ namespace Bank
             List<ITrade> portfolio = new List<ITrade>();
             List<string> tradeCategories = new List<string>();
 
+            //Trades to be categorized
             portfolio.Add(new Trade(){Value = 2000000, ClientSector = "Private"});
             portfolio.Add(new Trade(){Value = 400000, ClientSector = "Public"});
             portfolio.Add(new Trade(){Value = 500000, ClientSector = "Public"});
             portfolio.Add(new Trade(){Value = 3000000, ClientSector = "Public"});
 
+            //Getting trade's risk
             tradeCategories = obj.GetRisk(portfolio);
 
+            //Shows trade categories outcome
             Console.WriteLine(String.Join(", ", tradeCategories));
         }
     }
