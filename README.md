@@ -19,7 +19,5 @@ Question 2:
 	- The idea here is that we use the same table for input and results, you got the input (CLIENT_SECTOR, CLIENT_VALUE) first and then, the procedure will read this information and save the result in the RISK_RESULT field as well as its analysis date. 
 	
 Obs.: The number "922337203685477.58" is the maximum of Money datatype. So, take it as infinity.
-	
-Ps.: Both question solutions end up quite simple. This week's been quite busy for me, so I couldn't get much time to develop a better and more modern solution.
 
 Thanks.
